@@ -132,7 +132,7 @@ SampleTrainer::sampleAction()
 {
     // sample training to test a ball interception.
 
-    static int s_state = 0;
+    static int s_state = 1;
     static int s_wait_counter = 0;
 
     static Vector2D s_last_player_move_pos;
